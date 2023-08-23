@@ -7,5 +7,3 @@ simulation
 *.rpt
 *.log
 *.tmp
-*.qsf
-*.qws
