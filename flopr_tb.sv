@@ -1,7 +1,7 @@
 module flopr_tb();
 	parameter N = 64;
 	logic clk, reset;
-	logic [N-1:0] d,q,qexpected;
+	logic [N-1:0] d, q, qexpected;
 	logic [3:0] vectornum, errors;
 	logic [N-1:0] testvectors [0:9] = '{
 		64'd1,
