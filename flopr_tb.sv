@@ -73,8 +73,7 @@ module flopr_tb();
 			end
 			vectornum++;
 			if (vectornum === $size(testvectors)) begin 
-				$display("%d tests completed with %d errors", 
-                vectornum, errors);
+				$display("%d tests completed with %d errors", vectornum, errors);
 				$stop;
 			end
 		end
