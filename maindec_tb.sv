@@ -11,7 +11,7 @@ module maindec_tb();
 		end else begin 
 			$display("Test %s failure", operation);
 			$display("output: %b", {Reg2Loc, ALUSrc, MemtoReg, MemRead, RegWrite, MemWrite, Branch, ALUOp[1:0]});
-			$display("expected: %b", 9'b000100010);
+			$display("expected: %b", expected_result);
 		end
 	endfunction
 	
@@ -45,5 +45,8 @@ module maindec_tb();
 			Op = 11'b101_0101_0000;
 			#10;
 			check_result("ORR", Op, 9'b000100010);
+			// Fin
+			$display("tests completed");
+			$stop;
 		end
 endmodule
