@@ -2,5 +2,5 @@
 	.org 0x0000
 	
 	add x1,x0,x1
-infLoop:
+infLoop:  
 	cbz XZR infLoop
