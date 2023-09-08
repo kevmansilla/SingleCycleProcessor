@@ -1,4 +1,4 @@
-make 
+make
 
 LONG=$(cat main.list | grep -oP '\t[0-9a-f]{8}' | wc -l)
 

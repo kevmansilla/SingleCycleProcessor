@@ -1,0 +1,41 @@
+
+main.elf:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000000000 <exitloop-0x7c>:
+   0:	f8000000 	stur	x0, [x0]
+   4:	f8008001 	stur	x1, [x0, #8]
+   8:	f8010002 	stur	x2, [x0, #16]
+   c:	f8018003 	stur	x3, [x0, #24]
+  10:	f8020004 	stur	x4, [x0, #32]
+  14:	f8028005 	stur	x5, [x0, #40]
+  18:	f8030006 	stur	x6, [x0, #48]
+  1c:	f8038007 	stur	x7, [x0, #56]
+  20:	f8040008 	stur	x8, [x0, #64]
+  24:	f8048009 	stur	x9, [x0, #72]
+  28:	f805000a 	stur	x10, [x0, #80]
+  2c:	f805800b 	stur	x11, [x0, #88]
+  30:	f806000c 	stur	x12, [x0, #96]
+  34:	f806800d 	stur	x13, [x0, #104]
+  38:	f807000e 	stur	x14, [x0, #112]
+  3c:	f807800f 	stur	x15, [x0, #120]
+  40:	f8080010 	stur	x16, [x0, #128]
+  44:	f8088011 	stur	x17, [x0, #136]
+  48:	f8090012 	stur	x18, [x0, #144]
+  4c:	f8098013 	stur	x19, [x0, #152]
+  50:	f80a0014 	stur	x20, [x0, #160]
+  54:	f80a8015 	stur	x21, [x0, #168]
+  58:	f80b0016 	stur	x22, [x0, #176]
+  5c:	f80b8017 	stur	x23, [x0, #184]
+  60:	f80c0018 	stur	x24, [x0, #192]
+  64:	f80c8019 	stur	x25, [x0, #200]
+  68:	f80d001a 	stur	x26, [x0, #208]
+  6c:	f80d801b 	stur	x27, [x0, #216]
+  70:	f80e001c 	stur	x28, [x0, #224]
+  74:	f80e801d 	stur	x29, [x0, #232]
+  78:	f80f001e 	stur	x30, [x0, #240]
+
+000000000000007c <exitloop>:
+  7c:	b400001f 	cbz	xzr, 7c <exitloop>
